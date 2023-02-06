@@ -1,0 +1,14 @@
+.cst-btn-nav {
+    background: #4B58CE;
+    padding: 8px 20px;
+    border-radius: 4px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.cst-btn-nav:hover {
+    background: #4B58CE !important;
+    color: #fff !important;
+}
+
+ 
