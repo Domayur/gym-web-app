@@ -43,3 +43,23 @@
     border: 1px solid #EBF0F4;
     border-radius: 43px;
 }
+
+.play-icons {
+    color: #4B58CE;
+    font-size: 18px;
+}
+
+.mayur{
+    padding: 10px;
+    width: 80%;
+    box-sizing: border-box;
+    /* position: absolute; */
+    /* left: 0%;
+    right: 0%;
+    top: 54.86%;
+    bottom: 22.29%; */
+    background: #F9FAFD;
+    border: 1px solid #EBF0F4;
+    border-radius: 3px;
+    /* height: 102%; */
+}
