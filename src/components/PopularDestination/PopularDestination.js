@@ -10,12 +10,12 @@ const PopularDestination = () => {
         <>
             <section className='popular-destination'>
                 <div class="container pt-4 pb-5 mb-4">
-                    <h1 className='text-center pt-5'>Popular Destinations</h1>
+                    <h1 className='text-center pt-5'><b>Popular Destinations</b></h1>
                     <p className='text-center'>Discover the Most Popular Gyms Around the World</p>
                     <div class="row">
                         <div class="col-sm-3">
                             <div class="card">
-                                <img src={Image1} class="card-img-top" alt={Image1} lass="card-img-top img-fluid" />
+                                <img src={Image1} class="card-img-top" alt={Image1} />
                             </div>
                             <div class="card-block cst-body-card">
                                 <h4 class="card-title">San Francisco</h4>
@@ -24,7 +24,7 @@ const PopularDestination = () => {
                         </div>
                         <div class="col-sm-3">
                             <div class="card">
-                                <img src={Image2} class="card-img-top" alt={Image1} lass="card-img-top img-fluid" />
+                                <img src={Image2} class="card-img-top" alt={Image1} />
                             </div>
                             <div class="card-block">
                                 <h4 class="card-title">New York</h4>
@@ -33,7 +33,7 @@ const PopularDestination = () => {
                         </div>
                         <div class="col-sm-3">
                             <div class="card">
-                                <img src={Image3} class="card-img-top" alt={Image1} lass="card-img-top img-fluid" />
+                                <img src={Image3} class="card-img-top" alt={Image1} />
                             </div>
                             <div class="card-block">
                                 <h4 class="card-title">Los Angeles</h4>
@@ -42,7 +42,7 @@ const PopularDestination = () => {
                         </div>
                         <div class="col-sm-3">
                             <div class="card">
-                                <img src={Image4} class="card-img-top" alt={Image1} lass="card-img-top img-fluid" />
+                                <img src={Image4} class="card-img-top" alt={Image1} />
                             </div>
                             <div class="card-block">
                                 <h4 class="card-title">Washington</h4>
@@ -52,7 +52,6 @@ const PopularDestination = () => {
                     </div>
                 </div>
             </section>
-
         </>
     )
 }
