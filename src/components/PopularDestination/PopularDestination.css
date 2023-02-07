@@ -1,0 +1,31 @@
+.popular-destination {
+    background: #F9FAFD;
+}
+
+p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;    
+    color: #8B8D9C;
+}
+
+h1 {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-style: normal;
+    line-height: 140%;
+    font-size: 32px;
+}
+
+h4 {
+    width: 137px;
+    height: 28px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    color: #151927;
+}
