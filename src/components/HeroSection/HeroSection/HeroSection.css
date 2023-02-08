@@ -49,17 +49,33 @@
     font-size: 18px;
 }
 
-.mayur{
+.marata {
+    justify-content: space-evenly;
     padding: 10px;
-    width: 80%;
-    box-sizing: border-box;
-    /* position: absolute; */
-    /* left: 0%;
-    right: 0%;
-    top: 54.86%;
-    bottom: 22.29%; */
+    display: flex;
+ 
+ 
     background: #F9FAFD;
     border: 1px solid #EBF0F4;
-    border-radius: 3px;
-    /* height: 102%; */
+ 
 }
+
+
+
+/* .hero-section {
+    background-image: url('../../../assets/images/hero.png');
+    background-size: auto;
+    background-position: center right;
+    background-repeat: no-repeat;
+    height: 700px;
+
+
+    .hero-section img {
+        display: none;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .hero-img {
+            display: none;
+        }
+    } */
