@@ -11,11 +11,6 @@ import RectangleB8 from '../../assets/images/Rectangle8.png'
 
 
 
-
-
-
-
-
 import { BsStarFill } from 'react-icons/bs'
 const ExploreGymSection = () => {
     return (
