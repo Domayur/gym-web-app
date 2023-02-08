@@ -7,12 +7,12 @@ import TwitterImg from '../../assets/images/twitter.png'
 import YoutubeImg from '../../assets/images/youtube.png'
 import LinkedinImg from '../../assets/images/linkedin.png'
 import Image1Img from '../../assets/images/image1.png'
-
+import { BsCurrencyDollar, BsFacebook, BsGlobe, BsInstagram } from "react-icons/bs";
 
 import '../Footer/Footer.css'
 const Footer = () => {
     return (
-        <>            
+        <>
             <section className='footer-section add-height-class'>
                 <div class="container-fluid footer">
                     <div class="container py-5">
@@ -57,9 +57,13 @@ const Footer = () => {
                         <div class="d-sm-flex justify-content-sm-between mb-5">
                             <div class="">
                                 <a href="">
-                                    <img class="social-icon" src={FacebookImg} alt="facebook" /></a>
+                                    {/* <BsFacebook/> */}
+                                    <img class="social-icon" src={FacebookImg} alt="facebook" />
+                                </a>
                                 <a href="">
-                                    <img class="social-icon" src={InstagramImg} alt="instagram" /></a>
+                                    <img class="social-icon" src={InstagramImg} alt="instagram" />
+                                    {/* <BsInstagram/> */}
+                                </a>
                                 <a href="">
                                     <img class="social-icon" src={TwitterImg} alt="twitter" />
 
@@ -81,16 +85,16 @@ const Footer = () => {
                             </div>
                             <div class="">
                                 <div class="store">
-                                    <a href="">Terms of Service</a>
-                                    <a href="">Privacy Police</a>
+                                    <a href="#" className='m-2' ><BsGlobe /> English</a>
+                                    <a href="#" className='m-2'> <BsCurrencyDollar /> USD</a>
                                 </div>
                             </div>
                         </div>
                         <div class="d-sm-flex justify-content-sm-between d-xs-block justify-content-xs-center">
                             <div class=""><p>© 2023 Gymguestpass</p></div>
                             <div class="store">
-                                <a href="">Terms of Service</a>
-                                <a href="">Privacy Police</a>
+                                <a href="#" className='m-2'>Terms of Service</a>
+                                <a href="#" className='m-2'>Privacy Police</a>
                             </div>
                         </div>
                     </div>

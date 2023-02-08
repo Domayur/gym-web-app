@@ -23,10 +23,10 @@ const Header = () => {
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item p-2">
                                     <img class="cs-infinity-img" src={InfinityLogo} />
-                                    <button class="btn " type="button">Partner with Us</button>
+                                    <button class="btn partner-with-us-btn" type="button">Partner with Us</button>
                                 </li>
                                 <li class="nav-item p-2">
-                                    <button class="btn" type="button">Login</button>
+                                    <button class="btn partner-with-us-btn" type="button">Login</button>
                                 </li>
                                 <li class="nav-item p-2">
                                     <button class="btn cst-btn-nav" type="button">Signup</button>
