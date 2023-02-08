@@ -5,6 +5,8 @@ import HeroSection from './components/HeroSection/HeroSection';
 import PopularDestination from './components/PopularDestination/PopularDestination';
 import ExploreGymSection from './components/ExploreGym/ExploreGymSection';
 import PoplarGym from './components/PoplarGym/PoplarGym';
+import Footer from './components/Footer/Footer';
+import WhyChooseGym from './components/WhyChooseGym/WhyChooseGym';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <PopularDestination />
       <ExploreGymSection />
       <PoplarGym/>
+      <WhyChooseGym/>
+      <Footer/>
     </>
   );
 }

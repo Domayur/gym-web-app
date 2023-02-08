@@ -1,0 +1,33 @@
+p {
+  color: #8B8D9C;
+}
+
+.footer {
+  background-color: #151927;
+  color: #FFFFFF;
+}
+
+ul {
+  padding: 0px !important;
+}
+
+ul li,
+ul li a,
+a {
+  list-style-type: none;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+
+.social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 60px;
+}
+
+.store img {
+  width: 122px;
+  height: 36px;
+  margin-right: 12px;
+}

@@ -7,7 +7,7 @@ p {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 140%;    
+    line-height: 140%;
     color: #8B8D9C;
 }
 
@@ -28,4 +28,9 @@ h4 {
     font-size: 20px;
     line-height: 140%;
     color: #151927;
+}
+
+.popular-gym-section {
+    height: 800px;
+    background-color:#F9FAFD;
 }
