@@ -50,13 +50,17 @@
 }
 
 .marata {
-    /* justify-content: space-evenly;
-    padding: 10px;
     display: flex;
+    align-items: center;
     background: #F9FAFD;
-    border: 1px solid #EBF0F4; */
+    border: 1px solid #EBF0F4;
+    border-radius: 3px;
+    padding: 10px 10px;
+    width: 100%;
 }
-
+.desti_input {
+    width: 100%;
+}
 @media (min-width: 575.98px) {
     .hero-section{
         background-image: url('../../../assets/images/hero.png');
