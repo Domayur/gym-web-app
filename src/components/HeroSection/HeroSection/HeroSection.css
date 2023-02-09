@@ -50,32 +50,21 @@
 }
 
 .marata {
-    justify-content: space-evenly;
+    /* justify-content: space-evenly;
     padding: 10px;
     display: flex;
- 
- 
     background: #F9FAFD;
-    border: 1px solid #EBF0F4;
- 
+    border: 1px solid #EBF0F4; */
+}
+
+@media (min-width: 575.98px) {
+    .hero-section{
+        background-image: url('../../../assets/images/hero.png');
+        background-size: auto;
+        background-position: center right;
+        background-repeat: no-repeat;
+        height: 700px;
+    }
 }
 
 
-
-/* .hero-section {
-    background-image: url('../../../assets/images/hero.png');
-    background-size: auto;
-    background-position: center right;
-    background-repeat: no-repeat;
-    height: 700px;
-
-
-    .hero-section img {
-        display: none;
-    }
-
-    @media only screen and (max-width: 600px) {
-        .hero-img {
-            display: none;
-        }
-    } */

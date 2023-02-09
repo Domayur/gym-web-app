@@ -23,7 +23,7 @@ const Footer = () => {
                         </div>
                         <div class="row mb-5">
                             <div class="col-md-3 col-6">
-                                <p>Destination</p>
+                                <p class="new-class-for-para">Destination</p>
                                 <ul>
                                     <li><a href="" alt="">San Francisco</a></li>
                                     <li><a href="" alt="">New York</a></li>
@@ -32,21 +32,21 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div class="col-md-3 col-6">
-                                <p>Company</p>
+                                <p class="new-class-for-para">Company</p>
                                 <ul>
                                     <li><a href="" alt="">About Us</a></li>
                                     <li><a href="" alt="">Support Center</a></li>
                                 </ul>
                             </div>
                             <div class="col-md-3 col-6">
-                                <p>Discover</p>
+                                <p class="new-class-for-para">Discover</p>
                                 <ul>
                                     <li><a href="" alt="">Trust & Safety</a></li>
                                     <li><a href="" alt="">Terms & Privacy</a></li>
                                 </ul>
                             </div>
                             <div class="col-md-3 col-6">
-                                <p>Support</p>
+                                <p class="new-class-for-para">Support</p>
                                 <ul>
                                     <li><a href="" alt="">Help Center</a></li>
                                     <li><a href="" alt="">Cancellation options</a></li>
