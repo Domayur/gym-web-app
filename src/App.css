@@ -7,6 +7,52 @@
     letter-spacing: 0em;
     text-align: left;
 }
-h3 p h1 h2 b{
+
+
+h1{
     font-family: 'Work Sans';
+    font-Weight: 600;
+    font-size: 48px;
+    line-height:57.6px;
+    color: #151927;
+}
+
+h2{
+    font-family: 'Work Sans';
+    font-Weight: 500;
+    font-size: 32px;
+    line-height:44px;
+    color: #151927;
+}
+
+h3{
+    font-family: 'Work Sans';
+    font-Weight: 500;
+    font-size: 24px;
+    line-height:36px;
+    color: #FFFFFF;
+}
+
+h4{
+    font-family: 'Work Sans';
+    font-Weight: 500;
+    font-size: 20px;
+    line-height:24px;
+    color: #151927;
+}
+
+p{
+    font-family: 'Work Sans';
+    font-Weight: 400;
+    font-size: 16px;
+    line-height:24px;
+    color: #8B8D9C;
+}
+
+span.cstm-text{
+    font-family: 'Work Sans';
+    font-Weight: 400;
+    font-size: 13px;
+    line-height:16px;
+    color: #151927;
 }

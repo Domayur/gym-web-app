@@ -28,7 +28,7 @@ const ExploreGymSection = () => {
  
 
                     <div class="row row-cols-1 row-cols-md-4 g-4">
-                        <div class="col">
+                        <div class="col-6 col-lg-3 col-md-4">
                             <div class="card">
                                 <img src={RectangleB1} class="card-img-top" alt={RectangleB1} />
                             </div>
@@ -39,7 +39,7 @@ const ExploreGymSection = () => {
                                 <span class="float-right"> Starting from </span><b>$24</b>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-6 col-lg-3 col-md-4">
                             <div class="card">
                                 <img src={RectangleB2} class="card-img-top" alt={RectangleB2} />
                             </div>
@@ -50,7 +50,7 @@ const ExploreGymSection = () => {
                                 <span> Starting from </span><b>$24</b>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-6 col-lg-3 col-md-4">
                             <div class="card">
                                 <img src={RectangleB3} class="card-img-top" alt={RectangleB3} />
                             </div>
@@ -61,7 +61,7 @@ const ExploreGymSection = () => {
                                 <span> Starting from </span><b>$24</b>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-6 col-lg-3 col-md-4">
                             <div class="card">
                                 <img src={RectangleB4} class="card-img-top" alt={RectangleB4} />
                             </div>
@@ -72,7 +72,7 @@ const ExploreGymSection = () => {
                                 <span> Starting from </span><b>$24</b>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-6 col-lg-3 col-md-4">
                             <div class="card">
                                 <img src={RectangleB5} class="card-img-top" alt={RectangleB5} />
                             </div>
@@ -83,7 +83,7 @@ const ExploreGymSection = () => {
                                 <span> Starting from </span><b>$24</b>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-6 col-lg-3 col-md-4">
                             <div class="card">
                                 <img src={RectangleB6} class="card-img-top" alt={RectangleB6} />
                             </div>
@@ -94,7 +94,7 @@ const ExploreGymSection = () => {
                                 <span> Starting from </span><b>$24</b>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-6 col-lg-3 col-md-4">
                             <div class="card">
                                 <img src={RectangleB7} class="card-img-top" alt={RectangleB7} />
                             </div>
