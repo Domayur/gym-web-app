@@ -14,7 +14,7 @@ const PoplarGym = () => {
                     <div className="container">
                         <div className='row pt-5 pb-4'>
                             <div className='col-sm-6'>
-                                <h1 className='expore-gym-class-heading'>Explore Gyms</h1>
+                                <h2 className='expore-gym-class-heading'>Explore Gyms</h2>
                                 <p className='expore-gym-class-para'>These popular gyms have a lot to offer</p>
                             </div>
                             <div className='col-sm-6 float-right pt-5 extra-space-class'>

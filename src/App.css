@@ -8,9 +8,13 @@
     text-align: left;
 }
 
+@font-face {
+    font-family: Work_Sans;
+    src: url(./assets/fonts/WorkSans-Regular.ttf);
+ }
 
 h1{
-    font-family: 'Work Sans';
+    font-family: Work_Sans;
     font-Weight: 600;
     font-size: 48px;
     line-height:57.6px;
@@ -18,7 +22,7 @@ h1{
 }
 
 h2{
-    font-family: 'Work Sans';
+    font-family: Work_Sans;
     font-Weight: 500;
     font-size: 32px;
     line-height:44px;
@@ -26,7 +30,7 @@ h2{
 }
 
 h3{
-    font-family: 'Work Sans';
+    font-family: Work_Sans;
     font-Weight: 500;
     font-size: 24px;
     line-height:36px;
@@ -34,7 +38,7 @@ h3{
 }
 
 h4{
-    font-family: 'Work Sans';
+    font-family: Work_Sans;
     font-Weight: 500;
     font-size: 20px;
     line-height:24px;
@@ -42,7 +46,7 @@ h4{
 }
 
 p{
-    font-family: 'Work Sans';
+    font-family: Work_Sans;
     font-Weight: 400;
     font-size: 16px;
     line-height:24px;
@@ -50,7 +54,7 @@ p{
 }
 
 span.cstm-text{
-    font-family: 'Work Sans';
+    font-family: Work_Sans;
     font-Weight: 400;
     font-size: 13px;
     line-height:16px;

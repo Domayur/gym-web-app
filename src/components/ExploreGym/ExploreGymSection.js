@@ -17,7 +17,7 @@ const ExploreGymSection = () => {
         <>
             <section class='explore-gym-section pt-4 pb-5 mb-4'>
                 <div class="container">
-                    <h1 className='pt-5'><b>Explore Gyms</b></h1>
+                    <h2 className='pt-5'>Explore Gyms</h2>
                     <p className=''>These popular gyms have a lot to offer</p>
 
                     <button className='btn cst-btn-explor-gym mb-3 m-1'>All</button>
@@ -26,7 +26,6 @@ const ExploreGymSection = () => {
                     <button className='btn cst-btn-explor-gym mb-3 m-1'>Most View</button>
                     <button className='btn cst-btn-explor-gym mb-3 m-1'>Popular</button>
  
-
                     <div class="row row-cols-1 row-cols-md-4 g-4">
                         <div class="col-6 col-lg-3 col-md-4">
                             <div class="card">

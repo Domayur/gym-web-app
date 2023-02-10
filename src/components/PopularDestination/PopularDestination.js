@@ -10,7 +10,7 @@ const PopularDestination = () => {
         <>
             <section className='popular-destination'>
                 <div class="container pt-4 pb-5 mb-4">
-                    <h1 className='text-center pt-5'><b>Popular Destinations</b></h1>
+                    <h2 className='text-center pt-5'>Popular Destinations</h2>
                     <p className='text-center'>Discover the Most Popular Gyms Around the World</p>
                     <div class="row">
                         <div class="col-6 col-lg-3 col-md-4 col-sm-4">

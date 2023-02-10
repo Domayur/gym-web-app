@@ -1,16 +1,6 @@
 .star-color-change {
     color: #4B58CE;
 }
-
-span {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-    color: #8B8D9C;
-}
-
 .cst-btn-load-more {
     color: #FFFFFF !important;
     background: #4B58CE !important;
@@ -22,11 +12,6 @@ span {
     /* width: 356px; */
     width: 290px;
     border-radius: 3px;
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
 }
 
 .cst-btn-explor-gym {

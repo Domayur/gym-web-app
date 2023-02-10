@@ -14,7 +14,7 @@ const HeroSection = () => {
                             <div class="container mt-5" >
                                 <div class="row" >
                                     <div class="col-lg-6" >
-                                        <h2 class="heading-hero-line" data-aos="fade-up">Find Your Next <br />Workout Destination</h2>
+                                        <h1 class="heading-hero-line" data-aos="fade-up">Find Your Next <br />Workout Destination</h1>
                                         <p class="paragaraph-hero-line" data-aos="fade-up" data-aos-delay="100">Find the Right Gym for Your Fitness Goals and Preferences</p>
                                         <div className='rao-new-set justify-content-between'>
                                             <form action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
