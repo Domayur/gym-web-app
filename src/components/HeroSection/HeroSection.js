@@ -11,7 +11,6 @@ const HeroSection = () => {
                 <div class="container mt-4">
                     <div class="row gy-4 d-flex justify-content-between ">
                         <div class="col-lg-12 order-2 order-lg-1 col-sm-8 order-sm-1 d-flex flex-column justify-content-center">
-                            {/* <div class="col-lg-8 order-2 order-lg-1 d-flex flex-column justify-content-center"> */}
                             <div class="container mt-5" >
                                 <div class="row" >
                                     <div class="col-lg-6" >
@@ -23,15 +22,15 @@ const HeroSection = () => {
                                                     <div class="LocationImg">
                                                         <img src={LocationImg} alt="location" className="m-1" />
                                                     </div>
-                                                    
                                                     <div class="desti_input">
                                                         <label className='where-class-lable'>where</label><br />
                                                         <input type="text" class="extra-class-remove-css" placeholder="Destination, city, address" value={"Destination, city, address"} />
                                                     </div>
-                                                    <div class="row main-div justify-content-between">
-                                                         <div class="col-sm-1">
-                                                            <button class="btn new-class-for-right d-inline" type="button"><BsSearch className='search-chnage-icon-color'/> Search</button>
-                                                        </div>
+                                                    <div class="search-div">
+                                                        <button type="button" class="btn new-cst-cla">
+                                                            <BsSearch className='search-chnage-icon-color' />
+                                                            Search
+                                                        </button>
                                                     </div>
                                                 </div>
                                             </form>
@@ -43,9 +42,6 @@ const HeroSection = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* <div class="col-lg-4 order-1 order-lg-2 hero-img ">
-                            <img src={HeroImg} class="img-fluid mb-3 mb-lg-0" alt="" />
-                        </div> */}
                         <div class="col-sm-4 order-1 order-sm-2 hero-img d-block d-sm-none">
                             <img src={HeroImg} class="img-fluid mb-3 mb-lg-0" alt="" />
                         </div>

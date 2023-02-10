@@ -116,7 +116,7 @@
 
 
 .search-chnage-icon-color {
-    color: red;
+    color: white;
     display: inline;
 }
 
@@ -130,4 +130,17 @@
 .new-class-for-right:hover {
     color: white;
     background: #4B58CE;
+}
+.new-cst-cla{
+    color: white !important;
+    background: #4B58CE !important;
+    padding: 12px;
+    width: 96px;
+}
+
+.new-cst-cla:hover{
+    color: white;
+    background: #4B58CE;
+    padding: 12px;
+    width: 96px;
 }
