@@ -54,7 +54,7 @@ const ExploreGymSection = () => {
                                 <img src={RectangleB3} class="card-img-top" alt={RectangleB3} />
                             </div>
                             <div class="card-block">
-                                <h4 class="card-title">Blink Fitness</h4>
+                                <h4 class="card-title">Peloton Studios</h4>
                                 <p class="card-text">12 miles away</p>
                                 <span><BsStarFill class="star-color-change" /> 4.8 (231) .</span>
                                 <span> Starting from </span><b>$24</b>
@@ -65,7 +65,7 @@ const ExploreGymSection = () => {
                                 <img src={RectangleB4} class="card-img-top" alt={RectangleB4} />
                             </div>
                             <div class="card-block">
-                                <h4 class="card-title">Blink Fitness</h4>
+                                <h4 class="card-title">Equinox</h4>
                                 <p class="card-text">12 miles away</p>
                                 <span><BsStarFill class="star-color-change" /> 4.8 (231) .</span>
                                 <span> Starting from </span><b>$24</b>
@@ -76,7 +76,7 @@ const ExploreGymSection = () => {
                                 <img src={RectangleB5} class="card-img-top" alt={RectangleB5} />
                             </div>
                             <div class="card-block">
-                                <h4 class="card-title">Blink Fitness</h4>
+                                <h4 class="card-title">New York Sports Club</h4>
                                 <p class="card-text">12 miles away</p>
                                 <span><BsStarFill class="star-color-change" /> 4.8 (231) .</span>
                                 <span> Starting from </span><b>$24</b>
@@ -87,7 +87,7 @@ const ExploreGymSection = () => {
                                 <img src={RectangleB6} class="card-img-top" alt={RectangleB6} />
                             </div>
                             <div class="card-block">
-                                <h4 class="card-title">Blink Fitness</h4>
+                                <h4 class="card-title">Chelsea Piers Fitness</h4>
                                 <p class="card-text">12 miles away</p>
                                 <span><BsStarFill class="star-color-change" /> 4.8 (231) .</span>
                                 <span> Starting from </span><b>$24</b>
@@ -98,18 +98,19 @@ const ExploreGymSection = () => {
                                 <img src={RectangleB7} class="card-img-top" alt={RectangleB7} />
                             </div>
                             <div class="card-block">
-                                <h4 class="card-title">Blink Fitness</h4>
+                                <h4 class="card-title">Planet Fitness</h4>
                                 <p class="card-text">12 miles away</p>
                                 <span><BsStarFill class="star-color-change" /> 4.8 (231) .</span>
                                 <span> Starting from </span><b>$24</b>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-6 col-lg-3 col-md-4">
+
                             <div class="card">
                                 <img src={RectangleB8} class="card-img-top" alt={RectangleB8} />
                             </div>
                             <div class="card-block">
-                                <h4 class="card-title">Blink Fitness</h4>
+                                <h4 class="card-title">Tone House</h4>
                                 <p class="card-text">12 miles away</p>
                                 <span><BsStarFill class="star-color-change" /> 4.8 (231) .</span>
                                 <span> Starting from </span><b>$24</b>

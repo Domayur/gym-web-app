@@ -28,8 +28,7 @@ const HeroSection = () => {
                                                     </div>
                                                     <div class="search-div">
                                                         <button type="button" class="btn new-cst-cla">
-                                                            <BsSearch className='search-chnage-icon-color' />
-                                                            Search
+                                                            <BsSearch className='search-chnage-icon-color' /> Search
                                                         </button>
                                                     </div>
                                                 </div>

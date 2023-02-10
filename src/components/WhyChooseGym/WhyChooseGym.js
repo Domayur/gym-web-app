@@ -11,7 +11,7 @@ const WhyChooseGym = () => {
             <section className='why-gym-pass' style={{ "background-color": "#F9FAFD", "padding": "16px 0px 40px" }}>
                 <div class="container " style={{ "background": "white", "border": "1px" }}>
                     <div class="row text-center" style={{ "padding": "12px" }}>
-                        <h3 className='mt-5'>Why Choose Gym Guest Pass</h3>
+                        <h3 className='mt-5' style={{"color" :"#151927","font-weight": "500" ,"font-size": "32px","line-height": "140%"}}>Why Choose Gym Guest Pass</h3>
                         <p>Here are the benefits you can get from us</p>
                         <div class="col-md-3 col-sm-6 col-xs-6 justify-content-center my-5">
                             <img src={BestPriceImg} alt="Best Price" className="mb-4" />

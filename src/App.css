@@ -1,6 +1,50 @@
 /* global css */
+
+
+@font-face {
+    font-family: Work_Sans;
+    src: url(./assets/fonts/WorkSans-Regular.ttf);
+}
+
+h1 {
+    font-family: Work_Sans;
+    font-Weight: 600;
+    font-size: 48px;
+    line-height: 57.6px;
+    color: #151927;
+}
+
+h2 {
+    font-family: Work_Sans;
+    font-Weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: #151927;
+}
+
+h3 {
+    font-family: Work_Sans;
+    font-Weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+h4 {
+    font-family: Work_Sans;
+    font-Weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #151927;
+}
+
+h5 {
+    font-family: Work_Sans;
+    color: #151927;
+}
+
 .btn {
-    font-family: "Poppins";
+    font-family: Work_Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
@@ -8,55 +52,24 @@
     text-align: left;
 }
 
-@font-face {
-    font-family: Work_Sans;
-    src: url(./assets/fonts/WorkSans-Regular.ttf);
- }
-
-h1{
-    font-family: Work_Sans;
-    font-Weight: 600;
-    font-size: 48px;
-    line-height:57.6px;
-    color: #151927;
-}
-
-h2{
+span {
     font-family: Work_Sans;
     font-Weight: 500;
-    font-size: 32px;
-    line-height:44px;
-    color: #151927;
+    line-height: 22.4px;
+    color: #8B8D9C
 }
 
-h3{
-    font-family: Work_Sans;
-    font-Weight: 500;
-    font-size: 24px;
-    line-height:36px;
-    color: #FFFFFF;
-}
-
-h4{
-    font-family: Work_Sans;
-    font-Weight: 500;
-    font-size: 20px;
-    line-height:24px;
-    color: #151927;
-}
-
-p{
+p {
     font-family: Work_Sans;
     font-Weight: 400;
     font-size: 16px;
-    line-height:24px;
     color: #8B8D9C;
 }
 
-span.cstm-text{
+span.cstm-text {
     font-family: Work_Sans;
     font-Weight: 400;
     font-size: 13px;
-    line-height:16px;
+    line-height: 16px;
     color: #151927;
 }
