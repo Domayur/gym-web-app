@@ -23,6 +23,7 @@ const HeroSection = () => {
                                                     <div class="LocationImg">
                                                         <img src={LocationImg} alt="location" className="m-1" />
                                                     </div>
+                                                    
                                                     <div class="desti_input">
                                                         <label className='where-class-lable'>where</label><br />
                                                         <input type="text" class="extra-class-remove-css" placeholder="Destination, city, address" value={"Destination, city, address"} />
