@@ -58,12 +58,14 @@
     padding: 10px 10px;
     width: 100%;
 }
+
 .desti_input {
     width: 100%;
 }
+
 @media (min-width: 575.98px) {
-    .hero-section{
-        background-image: url('../../../assets/images/hero.png');
+    .hero-section {
+        background-image: url('../../assets/images/hero.png');
         background-size: auto;
         background-position: center right;
         background-repeat: no-repeat;
@@ -71,4 +73,61 @@
     }
 }
 
+.extra-class-remove-css {
+    background: #F9FAFD;
+    border: none;
+    width: 198px;
+    height: 22px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #8B8D9C;
 
+}
+
+
+.where-class-lable {
+    width: 41px;
+    height: 18px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    text-align: center;
+    color: #151927;
+
+}
+
+.serch-button-hero {
+    background: #4B58CE;
+    padding: 12px 34px;
+    border-radius: 4px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.serch-button-hero {
+    background: #4B58CE !important;
+    color: #fff !important;
+}
+
+
+.search-chnage-icon-color {
+    color: red;
+    display: inline;
+}
+
+.new-class-for-right {
+    background: #4B58CE;
+    border-radius: 4px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.new-class-for-right:hover {
+    color: white;
+    background: #4B58CE;
+}
