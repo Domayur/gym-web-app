@@ -13,7 +13,7 @@ const PopularDestination = () => {
                     <h1 className='text-center pt-5'><b>Popular Destinations</b></h1>
                     <p className='text-center'>Discover the Most Popular Gyms Around the World</p>
                     <div class="row">
-                        <div class="col-sm-3">
+                        <div class="col-6 col-lg-3 col-md-4 col-sm-4">
                             <div class="card">
                                 <img src={Image1} class="card-img-top" alt={Image1} />
                             </div>
@@ -22,7 +22,7 @@ const PopularDestination = () => {
                                 <p class="card-text">3120 gyms</p>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-6 col-lg-3 col-md-4 col-sm-4">
                             <div class="card">
                                 <img src={Image2} class="card-img-top" alt={Image1} />
                             </div>
@@ -31,7 +31,7 @@ const PopularDestination = () => {
                                 <p class="card-text">6720 gyms</p>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-6 col-lg-3 col-md-4 col-sm-4">
                             <div class="card">
                                 <img src={Image3} class="card-img-top" alt={Image1} />
                             </div>
@@ -40,7 +40,7 @@ const PopularDestination = () => {
                                 <p class="card-text">5165 gyms</p>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-6 col-lg-3 col-md-4 col-sm-4">
                             <div class="card">
                                 <img src={Image4} class="card-img-top" alt={Image1} />
                             </div>
