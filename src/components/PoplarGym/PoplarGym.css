@@ -1,16 +1,16 @@
 .half-color-class {
-     
+
     height: 473px;
     background: #4B58CE;
 }
 
 .expore-gym-class-heading {
-   
+
     color: white;
 }
 
 .expore-gym-class-para {
-    
+
     color: rgba(255, 255, 255, 0.8);
 
 }
@@ -35,3 +35,102 @@
     display: flex;
     justify-content: end;
 }
+
+.setclassfor-position {
+    position: relative;
+}
+
+.first-div {
+    position: absolute;
+    top: 70%;
+    left: 3%;
+}
+
+.second-div {
+    position: absolute;
+    top: 70%;
+    left: 54%;
+}
+
+@media (max-width: 575.98px) {
+    .first-div {
+        position: absolute;
+        top: 20%;
+        left: 8%;
+    }
+    .second-div {
+        position: absolute;
+        top: 74%;
+        left: 8%;
+    }
+}
+
+
+.newimage-button {
+    /* position: absolute;
+    top: 87%;
+    left: 3%; */
+    background-color: #4B58CE !important;
+    color: white !important;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    /* border-radius: 5px;
+    text-align: center;
+    display: flex; */
+}
+
+/* 
+.newimage-button-right {
+    position: absolute;
+    top: 87%;
+    left: 54%;
+    background-color: #4B58CE !important;
+    color: white !important;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+}
+
+.para-heading-left-image {
+    position: absolute;
+    top: 82%;
+    left: 3%;
+}
+
+.para-heading3-left-image {
+    position: absolute;
+    top: 75%;
+    left: 3%;
+}
+
+.para-heading-right-image {
+    position: absolute;
+    top: 82%;
+    left: 54%;
+}
+
+.para-heading3-right-image {
+    position: absolute;
+    top: 75%;
+    left: 54%;
+} */
+
+/* .left-image{
+    background-image: url('../../assets/images/Rectangle-18.png');
+    background-size: auto;
+    background-position: center right;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.right-image{
+    background-image: url('../../assets/images/Rectangle-23.png');
+    background-size: auto;
+    background-position: center right;
+    background-repeat: no-repeat;
+    height: 700px;
+} */

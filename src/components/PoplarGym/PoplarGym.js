@@ -22,12 +22,22 @@ const PoplarGym = () => {
                             </div>
                         </div>
 
-                        <div className='row'>
-                            <div className='col-sm-6 mb-4'>
+                        <div className='row setclassfor-position'>
+                            <div className='col-sm-6 mb-4 left-image'>
                                 <img src={Rectangle18} className="card-img-top" />
+                                <div className='first-div'>
+                                    <h3 className='text-white para-heading3-left-image'>Save more with Yearly subscription</h3>
+                                    <p className='text-white para-heading-left-image'>Up to 30% discount</p>
+                                    <button class="btn newimage-button">Explore</button>
+                                </div>
                             </div>
-                            <div className='col-sm-6'>
-                                <img src={Rectangle23} className="card-img-top " />
+                            <div className='col-sm-6 mb-4 right-image'>
+                                <img src={Rectangle23} className="card-img-top right-image " />
+                                <div className='second-div'>
+                                    <h3 className='text-white para-heading3-right-image'>New year, new adventures</h3>
+                                    <p className='text-white para-heading-right-image'>Get 15% off stays worldwide</p>
+                                    <button class="btn newimage-button">Explore</button>
+                                </div>
                             </div>
                         </div>
                     </div>
