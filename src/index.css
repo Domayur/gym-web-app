@@ -1,1 +1,72 @@
+/* css for the login model */
+.cst-footer-text {
+    padding: 0px 96px 0px;
+}
 
+.back-col-cst {
+    padding: 13px;
+    height: 56px;
+    background: #EBF0F4;
+    border-radius: 3px;
+}
+
+.inner-para-cst {
+    /* font-family: 'Work Sans'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #151927;
+}
+
+.cst-heading-para-model {
+    width: 424px;
+    height: 22px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #8B8D9C;
+}
+
+.heading-welcome-model {
+    /* font-family: 'Work Sans'; */
+    width: 203px;
+    height: 34px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px !important;
+    line-height: 120%;
+    color: #151927;
+}
+
+/* model */
+.extra-cls-for-height {
+    height: 64px;
+
+    background: #F9FAFD;
+    border-radius: 3px;
+
+}
+
+.button-csr-sinin {
+    height: 56px;
+    top: 438px;
+    background: #4B58CE !important;
+    border-radius: 3px;
+    color: white;
+}
+
+.button-csr-sinin:hover {
+    height: 56px;
+    top: 438px;
+    /* background: #4B58CE !important; */
+    border-radius: 3px;
+    color: white;
+
+}
+
+/* model comman css */
+
+.inner-para-cst {
+    cursor: pointer;
+}

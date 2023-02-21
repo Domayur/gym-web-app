@@ -1,10 +1,8 @@
 import React from 'react'
-import Rectangle23 from '../../assets/images/Rectangle-23.png'
-import Rectangle18 from '../../assets/images/Rectangle-18.png'
-
-
+import Rectangle23 from '../../../assets/images/Rectangle-23.png'
+import Rectangle18 from '../../../assets/images/Rectangle-18.png'
+import IconRight from '../../../assets/images/iconRight.png'
 import '../PoplarGym/PoplarGym.css';
-import IconRight from '../../assets/images/iconRight.png'
 
 const PoplarGym = () => {
     return (

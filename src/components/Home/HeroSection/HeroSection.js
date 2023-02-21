@@ -1,10 +1,10 @@
 import React from 'react'
-import HeroImg from '../../assets/images/hero.png'
-import LocationImg from '../../assets/images/location.png'
+import HeroImg from '../../../assets/images/hero.png';
+import LocationImg from '../../../assets/images/location.png';
 import { BsFillPlayFill, BsSearch } from "react-icons/bs";
 import '../HeroSection/HeroSection.css'
 
-const HeroSection = () => {
+const HeroSection = () => { 
     return (
         <>
             <section class='hero-section'>
@@ -14,7 +14,9 @@ const HeroSection = () => {
                             <div class="container mt-5" >
                                 <div class="row" >
                                     <div class="col-lg-6" >
-                                        <h1 class="heading-hero-line" data-aos="fade-up">Find Your Next <br />Workout Destination</h1>
+                                        <h1 class="heading-hero-line" data-aos="fade-up">Find Your Next</h1>
+                                        <h1 class="heading-hero-line2" data-aos="fade-up">Workout Destination</h1>
+
                                         <p class="paragaraph-hero-line" data-aos="fade-up" data-aos-delay="100">Find the Right Gym for Your Fitness Goals and Preferences</p>
                                         <div className='rao-new-set justify-content-between'>
                                             <form action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">

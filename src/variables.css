@@ -1,0 +1,46 @@
+:root {
+    /*
+     * Typography
+     * ======================================================================== */
+  
+    --font-family-base: "Circular", Arial, Helvetica, sans-serif;
+  
+    /*
+     * Layout
+     * ======================================================================== */
+  
+    --max-content-width: 1080px;
+    --max-container-width: 1274px;
+  
+    /*
+     * Media queries breakpoints
+     * ======================================================================== */
+  
+    --screen-xs-min: 480px;  /* Extra small screen / phone */
+    --screen-sm-min: 768px;  /* Small screen / tablet */
+    --screen-md-min: 992px;  /* Medium screen / desktop */
+    --screen-lg-min: 1200px; /* Large screen / wide desktop */
+  
+    --border-color: #DDDDDD;
+    --background-color: #ffffff;
+    --btn-color: #282828;
+    --btn-primary-bg: #ff5a5f;
+    --btn-primary-color: #ffffff;
+    --btn-primary-hover-bg: #ff7e82;
+    --btn-primaryBorder-bg: #ffffff;
+    --btn-primaryBorder-color: #ff7e82;
+    --btn-primaryBorder-hover-bg: #ff7e82;
+    --btn-secondary-bg: #008489;
+    --btn-secondary-color: #ffffff;
+    --btn-secondary-hover-bg: #008489;
+    --text-color: #A02F18;
+    --common-text-color: #282828;
+    --common-text-Secondry-color: #696969;
+    --background-common-color: #F8F8F8;
+    --border-secondary-color: #dadada;
+    --background-secondary-color: #F2F8FF;
+    --menu-background-color: #f3f3f3;
+    --darkmode-primary-color: #323232;
+    --darkmode-secondary-color: #3c3c3c;
+    --darkmode-text-color: #ffffff;
+  }

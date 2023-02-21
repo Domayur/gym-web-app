@@ -1,8 +1,8 @@
 import React from 'react'
-import BestPriceImg from '../../assets/images/Best-Price.png'
-import Support247Img from '../../assets/images/Support247.png'
-import SecurityPaymentImg from '../../assets/images/Security-Payment.png'
-import MoneyBackImg from '../../assets/images/Money-Back.png'
+import BestPriceImg from '../../../assets/images/Best-Price.png'
+import Support247Img from '../../../assets/images/Support247.png'
+import SecurityPaymentImg from '../../../assets/images/Security-Payment.png'
+import MoneyBackImg from '../../../assets/images/Money-Back.png'
 import '../WhyChooseGym/WhyChooseGym.css'
 
 const WhyChooseGym = () => {

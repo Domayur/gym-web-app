@@ -146,11 +146,19 @@
     right: 27.37%;
     top: 0%;
     bottom: 66.86%;
-    
-    color: #8B8D9C;
+    font-weight: 600;
+    color:black;
     opacity: 0.8;
 }
-
+.heading-hero-line2 {
+    left: 0%;
+    right: 27.37%;
+    top: 0%;
+    bottom: 66.86%;
+    font-weight: 400;
+    color:black;
+    opacity: 0.8;
+}
 .how-it-works {
     display: flex;
     flex-direction: row;
@@ -183,7 +191,7 @@
 }
 @media (min-width: 575.98px) {
     .hero-section{
-        background-image: url('../../assets/images/hero.png');
+        background-image: url('../../../assets/images/hero.png');
         background-size: auto;
         background-position: center right;
         background-repeat: no-repeat;

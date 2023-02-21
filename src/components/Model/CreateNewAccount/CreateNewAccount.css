@@ -1,0 +1,21 @@
+.cst-new-account-head {
+    width: 305px;
+    height: 34px;
+    /* font-family: 'Work Sans'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px !important;
+    line-height: 120%;
+    color: #151927;
+}
+
+.para-model-for-new-account {
+    width: 423px;
+    height: 44px;
+    /* font-family: 'Work Sans'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #8B8D9C;
+}

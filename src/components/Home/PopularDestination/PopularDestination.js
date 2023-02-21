@@ -1,8 +1,8 @@
 import React from 'react'
-import Image1 from '../../assets/images/Rectangle-5.png'
-import Image2 from '../../assets/images/Rectangle-1.png'
-import Image3 from '../../assets/images/Rectangle-3.png'
-import Image4 from '../../assets/images/Rectangle-4.png'
+import Image1 from '../../../assets/images/Rectangle-5.png'
+import Image2 from '../../../assets/images/Rectangle-1.png'
+import Image3 from '../../../assets/images/Rectangle-3.png'
+import Image4 from '../../../assets/images/Rectangle-4.png'
 import '../PopularDestination/PopularDestination.css'
 
 const PopularDestination = () => {

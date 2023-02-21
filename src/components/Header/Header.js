@@ -2,7 +2,7 @@ import React from 'react'
 import NavLogo from '../../assets/images/BrandLogo.png'
 import InfinityLogo from '../../assets/images/infinityLogo.png'
 
-import '../Navbar/Header.css'
+import './Header.css'
 const Header = () => {
     return (
         <>
@@ -26,10 +26,10 @@ const Header = () => {
                                     <button class="btn partner-with-us-btn" type="button">Partner with Us</button>
                                 </li>
                                 <li class="nav-item p-2">
-                                    <button class="btn partner-with-us-btn" type="button">Login</button>
+                                    <button class="btn partner-with-us-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
                                 </li>
                                 <li class="nav-item p-2">
-                                    <button class="btn cst-btn-nav" type="button">Signup</button>
+                                    <button class="btn cst-btn-nav" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalCreateNewAccount">Signup</button>
                                 </li>
                             </ul>
                         </form>
