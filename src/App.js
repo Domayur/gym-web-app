@@ -1,35 +1,32 @@
-
-import Header from './components/Header/Header';
-import HeroSection from './components/Home/HeroSection/HeroSection';
-import ExploreGymSection from './components/Home/ExploreGym/ExploreGymSection';
-import PoplarGym from './components/Home/PoplarGym/PoplarGym';
-import WhyChooseGym from './components/Home/WhyChooseGym/WhyChooseGym';
-import PopularDestination from './components/Home/PopularDestination/PopularDestination';
-import Footer from './components/Footer/Footer';
-import './App.css';
+import { Route, Routes } from 'react-router-dom';
 import CreateNewAccount from './components/Model/CreateNewAccount/CreateNewAccount';
 import LoginModel from './components/Model/Login/LoginModel';
 import LogInWithEmail from './components/Model/LogInWithEmail/LogInWithEmail';
 import SignupWithEmailModel from './components/Model/SignupWithEmail/SignupWithEmailModel';
 import ForgotPassword from './components/Model/ForgotPassword/ForgotPassword';
+import HowItWorks from './components/Model/HowItWorks/HowItWorks';
+import GymPage from './Pages/GymPage/GymPage';
+import HomePage from './Pages/HomePage/HomePage'
 
+import './App.css';
 function App() {
   return (
     <>
-      <Header />
-      <HeroSection />
-      <PopularDestination />
-      <ExploreGymSection />
-      <PoplarGym />
-      <WhyChooseGym />
-      <Footer />
+      {/* routes start */}
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/gym-page" element={<GymPage />} />
+      </Routes>
+      {/* routes End */}
+
 
       {/* Models Start */}
       <LoginModel />
       <SignupWithEmailModel />
       <CreateNewAccount />
       <LogInWithEmail />
-      <ForgotPassword/>
+      <ForgotPassword />
+      <HowItWorks />
       {/* Models End */}
     </>
   );

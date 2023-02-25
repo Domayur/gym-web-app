@@ -23,7 +23,7 @@ const Header = () => {
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item p-2">
                                     <img class="cs-infinity-img" src={InfinityLogo} />
-                                    <button class="btn partner-with-us-btn" type="button">Partner with Us</button>
+                                    <button class="btn partner-with-us-btn" type="button" data-bs-toggle="modal" data-bs-target="#HowItWorkModal">Partner with Us</button>
                                 </li>
                                 <li class="nav-item p-2">
                                     <button class="btn partner-with-us-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../LogInWithEmail/LogInWithEmail.css'
 const LogInWithEmail = () => {
     return (
         <>
@@ -11,7 +11,7 @@ const LogInWithEmail = () => {
                         </div>
                         <div class="modal-body">
                             <div className='container'>
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Login up with email</h1>
+                                <h1 class="modal-title extra-class-model fs-5" id="exampleModalLabel">Login in with email</h1>
                                 <p className='cst-heading-para-model'>Enter the email address associated with your account</p>
                                 <form class="row g-3">
 

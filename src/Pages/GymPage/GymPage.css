@@ -1,0 +1,184 @@
+.abut-this-heading {
+
+    /* width: 141px; */
+    height: 28px;
+    left: 0px;
+    top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #151927;
+}
+
+.hard-class-algn {
+    display: flex;
+    height: 18px;
+}
+
+.color-check-cls {
+    color: #27AE60;
+}
+
+.gym-rule-section {}
+
+.cat-parat-for-gym-rule {
+    padding-left: 10px
+}
+
+.cst-parat-for-review {
+    padding-left: 30px;
+}
+
+.cst-padding-left {
+    padding-left: 22px;
+}
+
+label {
+    width: 243px;
+    height: 22px;
+
+    font-family: 'Work_Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #151927;
+}
+
+.btn-for-show-more-review {
+    box-sizing: border-box;
+    padding: 12px 16px;
+    width: 208px;
+    height: 48px;
+    background: #F9FAFD;
+    border: 1px solid #EBF0F4;
+    border-radius: 3px;
+}
+
+.add-height0-gym-set {
+    margin-top: 100px;
+    height: 659px;
+    left: 0px;
+    top: 3999px;
+    background: #FFFFFF;
+}
+
+.about-this-gym {
+    background-color: #F9FAFD;
+}
+
+.show-all-photos {
+    background-color: #F9FAFD;
+
+}
+
+/* for header */
+
+.left-padding-cst {
+    margin-left: 211px;
+}
+
+.innerdiv-header {
+    box-sizing: border-box;
+    height: 104px;
+    background: #FFFFFF;
+    border: 1px solid #EBF0F4;
+    border-radius: 3px;
+    padding: 24px 25px 0px;
+}
+
+@media (max-width: 575.98px) {
+    .left-padding-cst {
+        margin-left: 0px;
+    }
+}
+
+.cstdiv-about-this-gtm {
+    box-sizing: border-box;
+    /* height: 234px; */
+    background: #FFFFFF;
+    border: 1px solid #EBF0F4;
+    border-radius: 3px;
+    padding: 1rem !important;
+
+}
+
+.bussines-time-div {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 32px 24px;
+    gap: 10px;
+    height: 375px;
+    background: #FFFFFF;
+    border: 1px solid #EBF0F4;
+}
+
+.gym-rules-div {
+    box-sizing: border-box;
+    padding: 32px 24px;
+    gap: 10px;
+    background: #FFFFFF;
+    border: 1px solid #EBF0F4;
+    border-radius: 3px;
+}
+
+.reviews-div {
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 32px 24px;
+    gap: 10px;
+    /* width: 1116px; */
+    /* height: 914px; */
+
+    background: #FFFFFF;
+    border: 1px solid #EBF0F4;
+    border-radius: 3px;
+}
+
+.map-where-you-div {
+    box-sizing: border-box;
+    /* align-items: flex-start; */
+    padding: 32px 24px;
+    gap: 10px;
+    /* width: 1116px; */
+    /* height: 526px; */
+    background: #FFFFFF;
+    border: 1px solid #EBF0F4;
+    border-radius: 3px;
+}
+
+
+.cst-hr {
+    margin: 8px;
+    height: 2px;
+    width: 50%;
+    background: #4B58CE;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.cst-div-car {
+
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #EBF0F4;
+    border-radius: 3px;
+}
+
+.the-spaces-div {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 32px 24px;
+    gap: 10px;
+    background: #FFFFFF;
+    /* Border */
+    border: 1px solid #EBF0F4;
+    border-radius: 3px;
+}
