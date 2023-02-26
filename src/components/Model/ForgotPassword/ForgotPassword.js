@@ -16,7 +16,7 @@ const ForgotPassword = () => {
                                 <p className='model-forgot-password'>Enter the email address associated with your account, and we’ll email you a link to reset your password</p>
                                 <form class="row g-3">
                                     <div class="col-12">
-                                        <input type="email" class="form-control extra-cls-for-height" id="inputAddress" placeholder="martinjefferson@gmail.com" />
+                                        <input type="email" class="form-control extra-cls-for-height" id="inputAddress"  value="martinjefferson@gmail.com"/>
                                     </div>
 
                                     <div class="col-12">

@@ -16,7 +16,7 @@ const LogInWithEmail = () => {
                                 <form class="row g-3">
 
                                     <div class="col-12">
-                                        <input type="email" class="form-control extra-cls-for-height" id="inputAddress" placeholder="martinjefferson@gmail.com" />
+                                        <input type="email" class="form-control extra-cls-for-height" id="inputAddress" placeholder="martinjefferson@gmail.com" value=""/>
                                     </div>
                                     <div class="col-12">
                                         <input type="text" class="form-control extra-cls-for-height" id="inputAddress2" placeholder="Password" />

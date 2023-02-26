@@ -7,6 +7,7 @@ import ForgotPassword from './components/Model/ForgotPassword/ForgotPassword';
 import HowItWorks from './components/Model/HowItWorks/HowItWorks';
 import GymPage from './Pages/GymPage/GymPage';
 import HomePage from './Pages/HomePage/HomePage'
+import './components/common.css'
 
 import './App.css';
 function App() {
