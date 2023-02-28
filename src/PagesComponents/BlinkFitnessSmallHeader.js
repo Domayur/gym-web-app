@@ -12,7 +12,7 @@ const BlinkFitnessSmallHeader = () => {
                             <div class="col-sm-1">
                                 <img src={Rectangle114Img} />
                             </div>
-                            <div class="col-xs-3">
+                            <div class="col">
                                 <label>Blink Fitness</label>
                                 <p>New York, USA</p>
                             </div>

@@ -1,0 +1,14 @@
+ .cst-dic-container {
+     box-sizing: border-box;
+     /* width: 1116px; */
+     /* height: 752px; */
+     background: #FFFFFF;
+     border: 1px solid #EBF0F4;
+     border-radius: 3px;
+     height: 600px;
+
+ }
+
+ .setAccount-section {
+     background: rgb(249, 250, 253);
+ }

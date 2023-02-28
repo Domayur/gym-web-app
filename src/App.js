@@ -7,9 +7,11 @@ import ForgotPassword from './components/Model/ForgotPassword/ForgotPassword';
 import HowItWorks from './components/Model/HowItWorks/HowItWorks';
 import GymPage from './Pages/GymPage/GymPage';
 import HomePage from './Pages/HomePage/HomePage'
+import SearchResult from './Pages/SearchResult/SearchResult';
 import './components/common.css'
-
 import './App.css';
+import SetAccount from './Pages/SetAccount/SetAccount';
+
 function App() {
   return (
     <>
@@ -17,6 +19,12 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/gym-page" element={<GymPage />} />
+        <Route path="/search-result" element={<SearchResult />} />
+        <Route path="/set-account" element={<SetAccount />} />
+
+
+        
+
       </Routes>
       {/* routes End */}
 
