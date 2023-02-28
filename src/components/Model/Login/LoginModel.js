@@ -1,5 +1,9 @@
 import React from 'react'
-import { BsFacebook, BsFillEnvelopeFill, BsGoogle, } from 'react-icons/bs'
+import GoogleImg from '../../../assets/images/GoogleOriginal.png'
+import FacebookImg from '../../../assets/images/FacVector.png'
+import MessaegImg from '../../../assets/images/messageicon.png'
+
+
 
 const LoginModel = () => {
     return (
@@ -17,17 +21,17 @@ const LoginModel = () => {
                             <div className='container'>
                                 <div className='row  back-col-cst'>
                                     <div className='col'>
-                                        <p className='text-center inner-para-cst'><BsGoogle /> Log in with Google</p>
+                                        <p className='text-center inner-para-cst'><img src={FacebookImg} /> Log in with Google</p>
                                     </div>
                                 </div><br />
                                 <div className='row  back-col-cst'>
                                     <div className='col  '>
-                                        <p className='text-center inner-para-cst'><BsFacebook /> Log in with Facebook</p>
+                                        <p className='text-center inner-para-cst'><img src={GoogleImg} /> Log in with Facebook</p>
                                     </div>
                                 </div><br />
                                 <div className='row  back-col-cst'>
                                     <div className='col'>
-                                        <p className='text-center inner-para-cst' data-bs-toggle="modal" data-bs-target="#exampleModal3"><BsFillEnvelopeFill /> Log in with Email</p>
+                                        <p className='text-center inner-para-cst' data-bs-toggle="modal" data-bs-target="#exampleModal3"><img src={MessaegImg} /> Log in with Email</p>
                                     </div>
                                 </div><br />
                             </div>

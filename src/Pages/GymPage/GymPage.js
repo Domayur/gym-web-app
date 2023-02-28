@@ -50,8 +50,7 @@ const GymPage = () => {
                                 </li>
                                 <li class="nav-item p-2">
                                     <img src={FrameLoginImg} />
-                                    {/* <button class="btn cst-btn-nav" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalCreateNewAccount">Signup</button> */}
-                                </li>
+                                 </li>
                             </ul>
                         </form>
                     </div>
