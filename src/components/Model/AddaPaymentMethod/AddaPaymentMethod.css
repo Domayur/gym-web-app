@@ -1,0 +1,36 @@
+.model-button-doller {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px 12px;
+    gap: 6px;
+    width: 76px;
+    height: 34px;
+    background: #F9FAFD;
+    border: 1px solid #EBF0F4;
+    border-radius: 3px;
+    font-family: "Work_Sans"
+}
+
+
+.lable-extra-ama {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #8B8D9C;
+    font-family: "Work_Sans";
+}
+
+.p-hours-class {
+    height: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #151927;
+
+}
+
+.extra-claa-for-effact:hover{
+     border: 2px solid #4B58CE;
+}

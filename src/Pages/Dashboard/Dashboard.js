@@ -6,9 +6,7 @@ import DashbordIconImg from '../../assets/images/CombinedShape.png'
 import UserImg from '../../assets/images/Ellipse30.png'
 import GrouImg from '../../assets/images/Group-382.png'
 import BellImg from '../../assets/images/bellicon.png'
-
-
-
+import CloseImg from '../../assets/images/closeGroup47.png'
 import ProfileiconImg from '../../assets/images/profileicon.png'
 import '../Dashboard/Dashboard.css'
 import { MdClose, MdVerified } from "react-icons/md";
@@ -22,7 +20,7 @@ const Dashboard = () => {
                 <div className='container mb-4'>
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-lg-3">
+                            <div class="d-none d-md-block col-md-5 col-lg-4 col-xl-3">
                                 <div class="card mb-4 p-4">
                                     <div class="pt-3">
                                         <ul class="navbar-nav">
@@ -62,8 +60,8 @@ const Dashboard = () => {
                                                 </a>
                                             </li>
                                             <li class="nav-item extra-nav-set-class">
-                                                <a class="nav-link" href="#">
-                                                    <span><BsWallet2 /> Payment</span>
+                                                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#PaymentModel">
+                                                    <span ><BsWallet2 /> Payment</span>
                                                 </a>
                                             </li>
                                             <li class="nav-item extra-nav-set-class">
@@ -82,21 +80,21 @@ const Dashboard = () => {
                                                     <span><BsArrowDownLeft /> Log out</span>
                                                 </a>
                                             </li>
-
                                         </ul>
                                     </div>
 
                                 </div>
                             </div>
 
-                            <div class="col-lg-9 ">
+
+                            <div class="col-md-7 col-lg-8 col-xl-9 ">
                                 <div class="card mb-4  p-3">
                                     <div className='row'>
                                         <div className='col-md-1'>
                                             <img src={DashbordIconImg} class="img-fluid extra-class-cst-img-dasbord  p-3" />
                                         </div>
-                                        <div className='col'>
-                                            <h4 className='cst-revire-pay'> Dashboard</h4>
+                                        <div className='col-md-11'>
+                                            <h4 className='dashboard-heading4 pt-2'> Dashboard</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -170,35 +168,28 @@ const Dashboard = () => {
                                             <img src={BellImg} class="img-fluid extra-class-cst-img-dasbord p-3" />
                                         </div>
                                         <div className='col'>
-                                            <h4 className='cst-revire-pay'> Notifications</h4>
+                                            <h4 className='notoficationheadinh pt-2'> Notifications</h4>
                                         </div>
                                     </div>
-
-
                                 </div>
+
                                 <div class="card mb-4  p-3">
                                     <div className='row'>
                                         <div className='col-md-1'><img src={GrouImg} class="img-fluid extra-class-cst-img-dasbord  p-3" /></div>
                                         <div className='col-md-10'>
-                                            <p> Please confirm your email address by clicking on the link we just emailed you. If
+                                            <p style={{ "color": "#151927" }}> Please confirm your email address by clicking on the link we just emailed you. If
                                                 you cannot find the email, you can request a new confirmation email or change
                                                 your email address.
                                             </p>
                                             <p>September 21,2022</p>
                                         </div>
                                         <div className='col-md-1'>
-                                            <MdClose className='float-end' />
+                                            <img src={CloseImg} className='float-end' style={{ "cursor": "pointer" }} />
                                         </div>
                                     </div>
-
                                 </div>
-
-
                             </div>
-
-
                         </div>
-
                     </div>
                 </div>
             </section>

@@ -20,9 +20,25 @@
     line-height: 237px;
 }
 
-.extra-class-cst-img-dasbord{
+.extra-class-cst-img-dasbord {
     background: #f9fafd;
     border-color: red;
     border: 1px solid #EBF0F4;
     border-radius: 3px;
+}
+
+.dashboard-heading4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: #151927;
+}
+
+.notofication-headinh {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: #151927;
 }

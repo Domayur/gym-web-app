@@ -13,6 +13,10 @@ import './App.css';
 import SetAccount from './Pages/SetAccount/SetAccount';
 import Payment from './Pages/Payment/Payment';
 import Dashboard from './Pages/Dashboard/Dashboard';
+import AddBankAccountAsPaymentMethod from './components/Model/AddBankAccountAsPaymentMethod/AddBankAccountAsPaymentMethod';
+import AddaPaymentMethod from './components/Model/AddaPaymentMethod/AddaPaymentMethod';
+import AddPayPalAsPaymentMethod from './components/Model/AddPayPalAsPaymentMethod/AddPayPalAsPaymentMethod';
+import AddBankAccountAsPaymentMethod2 from './components/Model/AddBankAccountAsPaymentMethod2/AddBankAccountAsPaymentMethod2';
 
 function App() {
   return (
@@ -37,6 +41,10 @@ function App() {
       <LogInWithEmail />
       <ForgotPassword />
       <HowItWorks />
+      <AddBankAccountAsPaymentMethod />
+      <AddaPaymentMethod />
+      <AddPayPalAsPaymentMethod />
+      <AddBankAccountAsPaymentMethod2/>
       {/* Models End */}
     </>
   );
