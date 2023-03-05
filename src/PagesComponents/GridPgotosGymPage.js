@@ -10,6 +10,7 @@ const GridPgotosGymPage = () => {
         <>
             <section class='gympage show-all-photos pt-4'>
                 <div class="container">
+                <div class="container">
                     <div class="row">
                         <div class="col">
                             <img src={ImageBig} class="card-img-top" />
@@ -25,6 +26,7 @@ const GridPgotosGymPage = () => {
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
             </section >
         </>

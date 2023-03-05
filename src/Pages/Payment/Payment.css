@@ -1,0 +1,63 @@
+.paypal-button {
+    box-sizing: border-box;
+    height: 64px;
+    background: linear-gradient(113.96deg, #0096D8 0%, #003087 100%);
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    /* for text */
+    font-family: 'Work_Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.butn-for-pay {
+    height: 64px;
+    background: #4B58CE;
+    border-radius: 3px;
+    font-family: 'Work_Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.payment-section-cst {
+    background-color: rgb(249, 250, 253);
+}
+
+.card {
+    box-sizing: border-box;
+    /* padding: 32px 24px;     */
+    /* height: 272px; */
+    background: #FFFFFF;
+    border: 1px solid #EBF0F4;
+    border-radius: 3px;
+}
+
+.inpu-field-cst {
+    height: 64px;
+
+    /* Light Grey */
+    margin-top: 6px;
+    margin-bottom: 6px;
+
+    background: #F9FAFD;
+    border-radius: 3px;
+}
+
+.cst-revire-pay {
+    height: 34px;
+    left: 0px;
+    top: 0px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+    color: #151927;
+  
+}

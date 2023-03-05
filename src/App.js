@@ -11,6 +11,8 @@ import SearchResult from './Pages/SearchResult/SearchResult';
 import './components/common.css'
 import './App.css';
 import SetAccount from './Pages/SetAccount/SetAccount';
+import Payment from './Pages/Payment/Payment';
+import Dashboard from './Pages/Dashboard/Dashboard';
 
 function App() {
   return (
@@ -21,9 +23,8 @@ function App() {
         <Route path="/gym-page" element={<GymPage />} />
         <Route path="/search-result" element={<SearchResult />} />
         <Route path="/set-account" element={<SetAccount />} />
-
-
-        
+        <Route path="/payment" element={<Payment />} />
+        <Route path="/dashboard" element={<Dashboard />} />
 
       </Routes>
       {/* routes End */}

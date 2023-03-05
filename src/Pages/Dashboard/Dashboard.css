@@ -1,0 +1,28 @@
+.extra-nav-set-class {
+    padding: 1px 34px 0px;
+    height: 41px;
+    margin: 10px;
+}
+
+.extra-nav-set-class.active {
+    padding: 1px 34px 0px;
+    height: 41px;
+    background: #F9FAFD !important;
+    margin: 10px;
+}
+
+.extra-nav-set-class:hover {
+    background: #F9FAFD;
+}
+
+
+.nav-item.footer-extra-height {
+    line-height: 237px;
+}
+
+.extra-class-cst-img-dasbord{
+    background: #f9fafd;
+    border-color: red;
+    border: 1px solid #EBF0F4;
+    border-radius: 3px;
+}
