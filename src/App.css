@@ -38,9 +38,20 @@ h4 {
     color: #151927;
 }
 
+
+
 h5 {
     font-family: Work_Sans;
     color: #151927;
+}
+
+h6 {
+    font-family: Work_Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 120%;
+    color: #151927;    
 }
 
 .btn {

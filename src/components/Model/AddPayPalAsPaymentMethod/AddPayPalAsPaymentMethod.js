@@ -11,7 +11,7 @@ const AddPayPalAsPaymentMethod = () => {
                         </div>
                         <div class="modal-body">
                             <div className='container'>
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Add PayPal as Payment Method</h1>
+                                <h6>Add PayPal as Payment Method</h6>
                                 <p className=''>On this page, you can connect your PayPal account to your user profile as a payment method</p>
 
                                 <label>Important</label>

@@ -1,15 +1,12 @@
 import React from 'react'
-import { BsArrowDownLeft, BsBell, BsFillBellFill, BsHeart, BsInbox, BsPersonFill, BsStarFill, BsWallet, BsWallet2 } from 'react-icons/bs'
 import Footer from '../../components/Footer/Footer'
 import SubHeader from '../../components/SubHeader/SubHeader'
 import DashbordIconImg from '../../assets/images/CombinedShape.png'
-import UserImg from '../../assets/images/Ellipse30.png'
-import GrouImg from '../../assets/images/Group-382.png'
+ import GrouImg from '../../assets/images/Group-382.png'
 import BellImg from '../../assets/images/bellicon.png'
 import CloseImg from '../../assets/images/closeGroup47.png'
-import ProfileiconImg from '../../assets/images/profileicon.png'
+import DashbordSidebar from '../../components/DashbordSidebar/DashbordSidebar'
 import '../Dashboard/Dashboard.css'
-import { MdClose, MdVerified } from "react-icons/md";
 
 
 const Dashboard = () => {
@@ -20,72 +17,7 @@ const Dashboard = () => {
                 <div className='container mb-4'>
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="d-none d-md-block col-md-5 col-lg-4 col-xl-3">
-                                <div class="card mb-4 p-4">
-                                    <div class="pt-3">
-                                        <ul class="navbar-nav">
-                                            <div className='text-center mb-4'>
-                                                <img src={UserImg} />
-                                                <h4 className='mt-3'>Martin Jefferson</h4>
-                                                <p><MdVerified /> Your account Unverified</p>
-                                            </div>
-
-                                            <hr class="sidebar-divider my-0" />
-                                            <li class="nav-item active extra-nav-set-class">
-                                                <a class="nav-link" href="#">
-                                                    <img src={DashbordIconImg} />
-                                                    <span> Dashboard</span>
-                                                </a>
-                                            </li>
-                                            <li class="nav-item extra-nav-set-class">
-                                                <a class="nav-link" href="#">
-                                                    <img src={ProfileiconImg} />
-                                                    <span> Profile</span>
-                                                </a>
-                                            </li>
-                                            <li class="nav-item extra-nav-set-class">
-                                                <a class="nav-link" href="#">
-                                                    <span><BsInbox /> Inbox</span>
-                                                </a>
-                                            </li>
-                                            <li class="nav-item extra-nav-set-class">
-                                                <a class="nav-link" href="#">
-                                                    <img src={ProfileiconImg} />
-                                                    <span> Bookings</span>
-                                                </a>
-                                            </li>
-                                            <li class="nav-item extra-nav-set-class">
-                                                <a class="nav-link" href="#">
-                                                    <span><BsHeart /> Wishlist</span>
-                                                </a>
-                                            </li>
-                                            <li class="nav-item extra-nav-set-class">
-                                                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#PaymentModel">
-                                                    <span ><BsWallet2 /> Payment</span>
-                                                </a>
-                                            </li>
-                                            <li class="nav-item extra-nav-set-class">
-                                                <a class="nav-link" href="#">
-                                                    <img src={ProfileiconImg} />
-                                                    <span> Security</span>
-                                                </a>
-                                            </li>
-                                            <br />
-                                            <br />
-                                            <br />
-                                            <br />
-                                            <br />
-                                            <li class="nav-item extra-nav-set-class">
-                                                <a class="nav-link" href="#">
-                                                    <span><BsArrowDownLeft /> Log out</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                            </div>
-
+                            <DashbordSidebar />
 
                             <div class="col-md-7 col-lg-8 col-xl-9 ">
                                 <div class="card mb-4  p-3">

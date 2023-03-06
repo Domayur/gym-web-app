@@ -17,6 +17,10 @@ import AddBankAccountAsPaymentMethod from './components/Model/AddBankAccountAsPa
 import AddaPaymentMethod from './components/Model/AddaPaymentMethod/AddaPaymentMethod';
 import AddPayPalAsPaymentMethod from './components/Model/AddPayPalAsPaymentMethod/AddPayPalAsPaymentMethod';
 import AddBankAccountAsPaymentMethod2 from './components/Model/AddBankAccountAsPaymentMethod2/AddBankAccountAsPaymentMethod2';
+import DashboardPayment from './Pages/DashboardPayment/DashboardPayment';
+import DashbordSecurity from './Pages/DashbordSecurity/DashbordSecurity';
+import { DashbordWishlist } from './Pages/DashbordWishlist/DashbordWishlist';
+import DashbordGuestPass from './Pages/DashbordGuestPass/DashbordGuestPass';
 
 function App() {
   return (
@@ -29,6 +33,12 @@ function App() {
         <Route path="/set-account" element={<SetAccount />} />
         <Route path="/payment" element={<Payment />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/dashboard-payment" element={<DashboardPayment />} />
+        <Route path="/dashboard-security" element={<DashbordSecurity/>} />
+        <Route path="/dashboard-wishlist" element={<DashbordWishlist/>} />
+        <Route path="/dashboard-guestpass" element={<DashbordGuestPass/>} />
+
+        
 
       </Routes>
       {/* routes End */}
@@ -44,7 +54,7 @@ function App() {
       <AddBankAccountAsPaymentMethod />
       <AddaPaymentMethod />
       <AddPayPalAsPaymentMethod />
-      <AddBankAccountAsPaymentMethod2/>
+      <AddBankAccountAsPaymentMethod2 />
       {/* Models End */}
     </>
   );

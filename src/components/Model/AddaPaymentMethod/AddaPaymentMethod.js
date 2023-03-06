@@ -11,7 +11,7 @@ const AddaPaymentMethod = () => {
                         </div>
                         <div class="modal-body">
                             <div className='container'>
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Add a Payment Method</h1>
+                                <h6 id="exampleModalLabel">Add a Payment Method</h6>
                                 <p className=''>On this page, you can add a payment method to your account. This will allow you to make transactions and bookings on our platform.</p>
                                      <div className='card extra-claa-for-effact p-4'>
                                         <h1 class="modal-title fs-5">Paypal</h1>
