@@ -26,7 +26,17 @@ const DashbordSidebar = () => {
         e.preventDefault()
         navigate("/dashboard-guestpass")
     }
-    
+
+    const handleProfile = (e) => {
+        e.preventDefault()
+        navigate("/dashboard-profile")
+    }
+
+    const handleDashboard = (e) => {
+        e.preventDefault()
+        navigate("/dashboard")
+    }
+
     return (
         <>
             <div class="d-none d-md-block col-md-5 col-lg-4 col-xl-3">
@@ -41,7 +51,7 @@ const DashbordSidebar = () => {
 
                             <hr class="sidebar-divider my-0" />
                             <li class="nav-item active extra-nav-set-class">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="#" onClick={handleDashboard}>
                                     <img src={DashbordIconImg} />
                                     <span> Dashboard</span>
                                 </a>
@@ -53,7 +63,7 @@ const DashbordSidebar = () => {
                                 </a>
                             </li>
                             <li class="nav-item extra-nav-set-class">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="#" onClick={handleProfile}>
                                     <img src={ProfileiconImg} />
                                     <span> Profile</span>
                                 </a>

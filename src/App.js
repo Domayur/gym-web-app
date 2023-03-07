@@ -21,6 +21,7 @@ import DashboardPayment from './Pages/DashboardPayment/DashboardPayment';
 import DashbordSecurity from './Pages/DashbordSecurity/DashbordSecurity';
 import { DashbordWishlist } from './Pages/DashbordWishlist/DashbordWishlist';
 import DashbordGuestPass from './Pages/DashbordGuestPass/DashbordGuestPass';
+import DashboardProfile from './Pages/DashboardProfile/DashboardProfile';
 
 function App() {
   return (
@@ -37,9 +38,11 @@ function App() {
         <Route path="/dashboard-security" element={<DashbordSecurity/>} />
         <Route path="/dashboard-wishlist" element={<DashbordWishlist/>} />
         <Route path="/dashboard-guestpass" element={<DashbordGuestPass/>} />
+        <Route path="/dashboard-profile" element={<DashboardProfile/>} />
+
 
         
-
+        
       </Routes>
       {/* routes End */}
 
