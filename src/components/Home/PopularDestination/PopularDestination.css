@@ -7,3 +7,11 @@
     height: 800px;
     background-color:#F9FAFD;
 }
+
+@media (max-width: 575.98px) {
+    .popular-gym-section {
+        height: 876px;
+        background-color:#F9FAFD;
+    }
+    
+}
