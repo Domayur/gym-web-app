@@ -23,7 +23,9 @@ import { DashbordWishlist } from './Pages/DashbordWishlist/DashbordWishlist';
 import DashbordGuestPass from './Pages/DashbordGuestPass/DashbordGuestPass';
 import DashboardProfile from './Pages/DashboardProfile/DashboardProfile';
 import AboutUsPage from './Pages/AboutUsPage/AboutUsPage';
-
+import { DashbordWishlist2 } from './Pages/DashbordWishlist2/DashbordWishlist2';
+import CreateNewWishlist from './components/Model/CreateNewWishlist/CreateNewWishlist';
+ 
 function App() {
   return (
     <>
@@ -39,6 +41,7 @@ function App() {
         <Route path="/dashboard-payment" element={<DashboardPayment />} />
         <Route path="/dashboard-security" element={<DashbordSecurity/>} />
         <Route path="/dashboard-wishlist" element={<DashbordWishlist/>} />
+        <Route path="/dashboard-wishlist2" element={<DashbordWishlist2/>} />
         <Route path="/dashboard-guestpass" element={<DashbordGuestPass/>} />
         <Route path="/dashboard-profile" element={<DashboardProfile/>} />
                 
@@ -57,6 +60,7 @@ function App() {
       <AddaPaymentMethod />
       <AddPayPalAsPaymentMethod />
       <AddBankAccountAsPaymentMethod2 />
+      <CreateNewWishlist/>
       {/* Models End */}
     </>
   );
