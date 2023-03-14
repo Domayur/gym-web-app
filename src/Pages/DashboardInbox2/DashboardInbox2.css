@@ -1,0 +1,35 @@
+.green-button-cst-for-inbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    gap: 8px;
+    /* position: absolute; */
+    width: 123px;
+    height: 38px;
+    /* left: 292px; */
+    /* top: 412px; */
+    background: rgba(39, 174, 96, 0.1);
+    color: green;
+    border-radius: 3px;
+    border: none;
+}
+
+.red-button-cst-for-inbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    gap: 8px;
+    /* position: absolute; */
+    width: 123px;
+    height: 38px;
+    /* left: 292px; */
+    /* top: 412px; */
+    background: rgba(235, 87, 87, 0.1);
+    color: red;
+    border-radius: 3px;
+    border: none;
+}

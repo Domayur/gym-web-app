@@ -37,6 +37,10 @@ const DashbordSidebar = () => {
         navigate("/dashboard")
     }
 
+    const handleInbox = (e) => {
+        e.preventDefault()
+        navigate("/dashboard-inbox")
+    }
     return (
         <>
             <div class="d-none d-md-block col-md-5 col-lg-4 col-xl-3">
@@ -68,7 +72,7 @@ const DashbordSidebar = () => {
                                     <span> Profile</span>
                                 </a>
                             </li>
-                            <li class="nav-item extra-nav-set-class">
+                            <li class="nav-item extra-nav-set-class" onClick={handleInbox}>
                                 <a class="nav-link" href="#">
                                     <span><BsInbox /> Inbox</span>
                                 </a>

@@ -40,17 +40,16 @@ export const DashbordWishlist2 = () => {
                                             <div class="card">
                                                 <img src={RectangleB1} class="card-img-top" alt={RectangleB1} />
                                             </div>
-                                            <div class="card-block">
+                                            <div class="card-block mt-1">
                                                 <h4 class="card-title">Near Me</h4>
                                                 <p class="card-text">2 Gym</p>
-
                                             </div>
                                         </div>
                                         <div class="col-6 col-lg-4 col-md-4">
                                             <div class="card">
                                                 <img src={RectangleB2} class="card-img-top" alt={RectangleB2} />
                                             </div>
-                                            <div class="card-block">
+                                            <div class="card-block mt-1">
                                                 <h4 class="card-title">New York</h4>
                                                 <p class="card-text">3 Gym</p>
 
@@ -60,7 +59,7 @@ export const DashbordWishlist2 = () => {
                                             <div class="card">
                                                 <img src={RectangleB2} class="card-img-top" alt={RectangleB2} />
                                             </div>
-                                            <div class="card-block">
+                                            <div class="card-block mt-1">
                                                 <h4 class="card-title">To Check</h4>
                                                 <p class="card-text">0 Gym</p>
 

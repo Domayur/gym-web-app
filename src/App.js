@@ -25,6 +25,8 @@ import DashboardProfile from './Pages/DashboardProfile/DashboardProfile';
 import AboutUsPage from './Pages/AboutUsPage/AboutUsPage';
 import { DashbordWishlist2 } from './Pages/DashbordWishlist2/DashbordWishlist2';
 import CreateNewWishlist from './components/Model/CreateNewWishlist/CreateNewWishlist';
+import { DashboardInbox } from './Pages/DashboardInbox/DashboardInbox';
+import { DashboardInbox2 } from './Pages/DashboardInbox2/DashboardInbox2';
  
 function App() {
   return (
@@ -44,6 +46,9 @@ function App() {
         <Route path="/dashboard-wishlist2" element={<DashbordWishlist2/>} />
         <Route path="/dashboard-guestpass" element={<DashbordGuestPass/>} />
         <Route path="/dashboard-profile" element={<DashboardProfile/>} />
+        <Route path="/dashboard-inbox" element={<DashboardInbox/>} />
+        <Route path="/dashboard-inbox2" element={<DashboardInbox2/>} />
+
                 
       </Routes>
       {/* routes End */}

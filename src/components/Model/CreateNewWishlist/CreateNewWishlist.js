@@ -20,7 +20,7 @@ const CreateNewWishlist = () => {
                                     </div>
 
                                     <div class="col-12">
-                                        <button type="button" class="text-center form-control button-csr-sinin" data-bs-toggle="modal" data-bs-target="#AddBankAccountAsPaymentMethod2Model">Create</button>
+                                        <button type="button" class="text-center form-control button-csr-sinin"  >Create</button>
                                     </div>
 
                                 </form>

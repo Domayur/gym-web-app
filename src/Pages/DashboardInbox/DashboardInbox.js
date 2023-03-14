@@ -1,16 +1,14 @@
 import React from 'react'
 import Footer from '../../components/Footer/Footer'
 import SubHeader from '../../components/SubHeader/SubHeader'
-import WishlistImg from '../../assets/images/wishlistimg.png'
-import HeartImg from '../../assets/images/heart-filled.png'
-
+import InboxiconImg from '../../assets/images/inboxicon.png'
 import DashbordSidebar from '../../components/DashbordSidebar/DashbordSidebar'
 import { BsPlusCircle } from 'react-icons/bs'
-import { useNavigate } from 'react-router-dom'
+ import Group344Img from '../../assets/images/Group344.png'
+import { BiLocationPlus } from 'react-icons/bi'
 
 
-export const DashbordWishlist = () => {
-    const navigate = useNavigate()
+export const DashboardInbox = () => {
     return (
         <>
             <SubHeader />
@@ -24,22 +22,20 @@ export const DashbordWishlist = () => {
                                 <div class="card mb-4  p-3">
                                     <div className='row'>
                                         <div className='col-md-1'>
-                                            <img src={HeartImg} class="img-fluid extra-class-cst-img-dasbord  p-3" />
+                                            <img src={InboxiconImg} class="img-fluid extra-class-cst-img-dasbord  p-3" />
                                         </div>
-                                        <div className='col-md-11'>
-                                            <h4 className='dashboard-heading4 pt-2'> Wishlist</h4>
+                                        <div className='col-md-8'>
+                                            <h4 className='dashboard-heading4 pt-2'> Inbox</h4>
                                         </div>
+                                         
                                     </div>
                                 </div>
-
-
-                                <div class="card mb-4  p-3">
+                                <div class="card mb-4 p-3">
                                     <div className='text-center p-3'>
-                                        <img src={WishlistImg} />
-                                        <h3 className='text-black'>No Gyms in Your Wishlist</h3>
-                                        <p>Add gyms to your wishlist to easily book them later or receive notifications when they become available.</p>
-                                        <button className='add-new-button' onClick={()=>navigate(("/dashboard-wishlist2"))}>Explore Now <BsPlusCircle className='plus-circle-cl' /></button>
-                                    </div>
+                                        <img src={Group344Img} />
+                                        <h3 className='text-black mt-2'>There are no messages in your inbox</h3>
+                                        <p>When hosts respond to your inquiries or booking requests, you can find their messages in this section.</p>
+                                     </div>
                                 </div>
                             </div>
                         </div>
